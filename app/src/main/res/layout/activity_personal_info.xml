@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Personal_info">
+
+    <EditText
+        android:id="@+id/textView9"
+        android:layout_width="342dp"
+        android:layout_height="94dp"
+        android:fontFamily="@font/kepler"
+        android:text="I think this one of the most important qualities to have as a driver: Show responsibility for other traffic participants."
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText9"
+        app:layout_constraintStart_toStartOf="@+id/editText9"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:background="off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_left_black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:clickable="true"
+        android:fontFamily="@font/kepler"
+        android:text="Edit"
+        android:textColor="#E83F3F"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="106dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/profile_picture" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/kepler"
+        android:text="Personal Info"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:layout_editor_absoluteX="29dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/kepler"
+        android:text="Email"
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText13"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/editText13"
+        app:layout_constraintTop_toBottomOf="@+id/editText9" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/kepler"
+        android:text="Gender"
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editText15"
+        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/kepler"
+        android:text="Phone No."
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editText16"
+        app:layout_constraintTop_toBottomOf="@+id/editText13" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/kepler"
+        android:text="City"
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText16"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editText16"
+        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/kepler"
+        android:text="Full Name"
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/editText11"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/edit_icon" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kepler"
+        android:text="About me"
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="342dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/kepler"
+        android:text="Address"
+        android:textColor="#9B9B9B"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jonathan Doe"
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+123423423423"
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ottawa"
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:text="296 Elgin St, Ottawa, ON x 1M3, Canada"
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText16"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="@+id/editText16"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jonathan.designer@gmail.com"
+        android:textColor="#3E4A58"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        tools:layout_editor_absoluteY="391dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
