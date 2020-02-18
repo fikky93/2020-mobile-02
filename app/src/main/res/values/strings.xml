@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MarketplaceLayout</string>
+        <string-array name="android_dropdown_arrays">
+            <item>Pilih Item</item>
+            <item>Australia</item>
+            <item>Belanda</item>
+            <item>Denmark</item>
+            <item>German</item>
+            <item>Indonesia</item>
+            <item>Malaysia</item>
+            <item>Singapura</item>
+        </string-array>
 </resources>
